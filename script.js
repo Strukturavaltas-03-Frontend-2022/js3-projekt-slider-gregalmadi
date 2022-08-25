@@ -1,6 +1,6 @@
 "use strict";
 
-import gallery from "./images";
+import gallery from "./images.json" assert { type: "json" };
 
 const nextImage = document.querySelector(".arrow--right");
 const prevImage = document.querySelector(".arrow--left");
